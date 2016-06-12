@@ -1,0 +1,62 @@
+<html>
+<title>Title</title>
+<head>
+    <!--<script type="text/javascript" src="javascript/tank.js"></script>-->
+
+    <script type = "text/javascript" src = "javascript/socket.io-client/socket.io.js"></script>
+    <script type="text/javascript" src="javascript/game.js"></script>
+    <script type="text/javascript" src="javascript/map.js"></script>
+    <script type="text/javascript" src="javascript/gift.js"></script>
+    <script type="text/javascript" src="javascript/wall.js"></script>
+    <script type="text/javascript" src="javascript/animation.js"></script>
+    <script type="text/javascript" src="javascript/bomber.js"></script>
+    <script type="text/javascript" src="javascript/enemyBomber.js"></script>
+    <script type="text/javascript" src="javascript/bomb.js"></script>
+    <script type="text/javascript" src="javascript/fire.js"></script>
+    <style>
+        .anh{margin: -60px 0 0 140px;
+            position: absolute;}
+
+
+        html, body {
+            overflow: hidden;
+             margin: 40px 0 0 200px;
+
+        }
+        #right{
+            position: absolute;
+            border: 1px solid #333333;
+               width: 100px;
+            height: 200px;
+            margin-left: 620px;
+            border-radius: 5px;
+         }
+        #left{
+            position: absolute;
+            width: 200px;
+            height: 300px;
+            border: 1px solid #333333;
+            margin-left: -240px;
+            border-radius:10px;
+        }
+    </style>
+    <div id="left">
+        </br>
+        </br>
+        <center> <b style="color: red;font-size: 20px;"> Hưỡng Dẫn Chơi</b></center></br>
+
+
+        <li>W, A, S, D để di chuyển</li>
+        <li>SPACE  để đặt boom</li>
+        <li><img src="images\lua.png">Ăn để tăng độ dài của lửa</li></br>
+        <li><img src="images\boom.png">Ăn để tăng thêm boom </li>
+        <li><img src="images\giay.png">Ăn để tăng tốc độ</li>
+    </div>
+   <div id="right">
+      <center><b>Xếp Hạng</b></center>
+   </div>
+</head>
+<body>
+<img class="anh" src="images\benner.png"/>
+</body>
+</html>
